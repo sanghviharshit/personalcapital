@@ -12,4 +12,7 @@ setup(
   download_url = 'https://github.com/haochi/personalcapital/tarball/{0}'.format(version),
   keywords = ['personal capital', 'financial', 'money'],
   classifiers = [],
+  install_requires=[
+    "cloudscraper==1.2.58",
+  ],
 )
